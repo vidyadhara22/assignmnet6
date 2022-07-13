@@ -1,0 +1,115 @@
+body {
+    background: yellow;
+    font-family: 'Arial';
+    text-shadow: 1px 1px 10px rgb(77, 76, 76);
+  }
+  .container {
+    display: flex;
+    flex-flow: column;
+    align-items: center;
+  }
+  
+  .first ol {
+    font-weight: 1000px;
+  }
+  
+  .box {
+    display: flex;
+    margin: 3em;
+  }
+  
+  .dcb {
+    width: 120px;
+    height: 110px;
+    margin: 3em;
+  }
+  
+  @keyframes box1 {
+    100% {
+      transform: skewX(-30deg);
+    }
+  
+    50% {
+      transform: skewX(30deg);
+    }
+  
+    0% {
+      transform: skewX(-30deg);
+    }
+  }
+  
+  .box1 {
+    background-color: green;
+    animation: box1 2s infinite;
+  }
+  
+  @keyframes box2 {
+    100% {
+      transform: skewY(30deg);
+    }
+  
+    50% {
+      transform: skewY(-30deg);
+    }
+  
+    0% {
+      transform: skewY(30deg);
+    }
+  }
+  
+  .box2 {
+    background-color: gray;
+    animation: box2 3s infinite;
+  }
+  
+ 
+  
+  
+  @keyframes box3 {
+    100% {
+      transform: rotate(360deg);
+    }
+  }
+  
+  .box3 {
+    background-color: green;
+    animation: box3 3s infinite;
+  }
+  
+
+
+  @keyframes box41 {
+    50% {
+      transform: scaleY(0.5);
+    }
+  }
+  
+  .box41 {
+    background-color: green;
+    border: 2px solid black;
+    animation: box41 3s infinite;
+  }
+  
+  @keyframes box42 {
+    50% {
+      transform: scaleX(0.5);
+    }
+  }
+  
+  .box42 {
+    background-color: brown;
+    border: 2px solid black;
+    animation: box42 2s infinite;
+  }
+  
+  @keyframes box43 {
+    50% {
+      transform: rotate(110deg);
+    }
+  }
+  
+  .box43 {
+    background-color: green;
+    border: 2px solid black;
+    animation: box43 3s infinite;
+  }
